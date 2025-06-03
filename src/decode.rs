@@ -366,7 +366,7 @@ pub struct Profile {
     /// Keycloak: Last name.
     pub family_name: Option<String>,
     /// Keycloak: Username of the user.
-    pub preferred_username: String,
+    pub preferred_username: Option<String>,
 }
 
 #[derive(serde::Deserialize, Debug, Clone)]
